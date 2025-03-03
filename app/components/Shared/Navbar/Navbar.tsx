@@ -50,7 +50,7 @@ export default function Navbar() {
                     ? "bg-yellow-400 text-white w-14"
                     : "bg-gray-800 text-gray-400 w-14"
                 }`}
-                style={{ width: hoveredIndex === index ? `${expandedWidth}px` : "6px" }}
+                style={{ width: hoveredIndex === index ? `${expandedWidth}px` : `${isActive? "40px": "6px"}` }}
               />
 
               <div
